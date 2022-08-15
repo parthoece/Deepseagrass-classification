@@ -1,2 +1,2 @@
 # Deepseagrass
-A seagrass classification approach
+Underwater seagrass classification approach
