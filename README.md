@@ -1,2 +1,2 @@
-# Underwater seagrass classification using Deep Learning Techniques
+# Underwater Sea-grass Classification Using Deep Learning Techniques
 
