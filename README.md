@@ -31,29 +31,30 @@ function- categorical entropy .
 images and test data: 20% - 8566 images. 
 ![image](https://user-images.githubusercontent.com/72349386/207402394-ddf442c2-13c3-4f2c-8c7a-ee0b016bfd78.png)
 
-- Firstly, implemented Inception V3 model which has 42 layers.
+- Firstly, implemented Inception V3 model which has 42 layers. 
+- Respectively, before augmentation and after augmentation – the inception V3 model gives 98.2% accuracy and 97.4% accuracy.
 ![image](https://user-images.githubusercontent.com/72349386/207403488-a65a5e97-337d-4eba-9d3c-3fc9d31862b0.png)
 ![image](https://user-images.githubusercontent.com/72349386/207403929-9ed583ef-20f9-4433-9dc7-20f9f578734e.png)
-
-
- 
-
-– Respectively, before augmentation and after augmentation – the inception V3 model gives 98.2% ac-
-curacy and 97.4% accuracy.
 ![image](https://user-images.githubusercontent.com/72349386/207403670-01c0591c-2720-431e-a676-1f404dedfd5b.png)
 ![image](https://user-images.githubusercontent.com/72349386/207403842-503661bc-63ca-4d93-ae09-cc2baf629604.png)
 ![image](https://user-images.githubusercontent.com/72349386/207404020-4557cfcf-e707-4351-ae46-703a95ebe607.png)
 ![image](https://user-images.githubusercontent.com/72349386/207404085-025a1c4a-6de2-4814-afa7-3e6d04069c75.png)
-
-- Classification Report
 ![image](https://user-images.githubusercontent.com/72349386/207406400-073dee10-1448-432a-bc59-75c50e091b3b.png)
 
 - Secondly, implemented efficientnet B7 which has 813 layers (accuracy increases by increasing the no.
 of epochs).
-- Finally, implemented convnet 5 layers and at final layer added ’l2’ regularizer. Activation
+![image](https://user-images.githubusercontent.com/72349386/207408451-f6382f5d-eed3-4604-9aa5-09ba6f413122.png)
+![image](https://user-images.githubusercontent.com/72349386/207408513-0a536850-d994-49e0-8aac-1e78a51c9c35.png)
+
+
+- Finally, implemented sequential CNN with 5 layers at final layer added ’l2’ regularizer. Activation
 function: ’softmax’ for all 3 models.
-- the efficientnet B7 model gives 36% accuracy and 45% accuarcy
--  And the covnet gives 92.7% accuracy and 80% accuracy
+![image](https://user-images.githubusercontent.com/72349386/207407658-1bb16607-9aae-4f81-982f-fe5191af2fc3.png)
+![image](https://user-images.githubusercontent.com/72349386/207408088-66e4cb4a-18bb-412c-9ad7-6d16242096ca.png)
+![image](https://user-images.githubusercontent.com/72349386/207407991-64f8ea61-9995-420d-9046-9e211cf60014.png)
+
+
+
 
 
 
